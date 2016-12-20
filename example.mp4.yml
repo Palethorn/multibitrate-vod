@@ -1,0 +1,22 @@
+qualities:
+    360p:
+        bitrate: '500k'
+        size: '640x360'
+        audio_bitrate: '64k'
+        profile: 'baseline'
+        fps: 25
+        gop: 250
+    540p:
+        bitrate: '800k'
+        size: '960x540'
+        audio_bitrate: '64k'
+        profile: 'main'
+        fps: 25
+        gop: 250
+    720p:
+        bitrate: '1000k'
+        size: '1280x720'
+        audio_bitrate: '128k'
+        profile: 'high'
+        fps: 25
+        gop: 250
