@@ -117,10 +117,10 @@ And the script will produce a single file using specified parameters. Script als
 ### Parameters
 You can set these values based on youtube recommendations for their upload engine if you want to keep it simple https://support.google.com/youtube/answer/1722171?hl=en
 
-- bitrate Specify how much information do you want to keep in a resulting video track. Higher the number, higher the quality, but also, larger the file. You can tinker with this value to find optimal settings.
-- size Represents frame size or video resolution. You should keep width and height divisible by 16 for best quality as it's a recommended value for h264 encoding, but keep the original aspect ration as best as possible.
-- audio_bitrate Specify how much information do you want to keep in a resulting audio track. Again, higher number, higher quality, but higher filesize.
-- profile More information here https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC#Profiles and here https://trac.ffmpeg.org/wiki/Encode/H.264#Alldevices
-- preset From here https://trac.ffmpeg.org/wiki/Encode/H.264#a2.Chooseapreset: A preset is a collection of options that will provide a certain encoding speed to compression ratio. A slower preset will provide better compression (compression is quality per filesize).
-- fps Specify which framerate to target or, in other words, how many frames per second do you wish to have in a resulting video. Generally this should not be higher than a source framerate.
-- gop GOP stands for Group of Pictures. It represents the distance between I-frames, or how many P-Frames and B-Frames can sit between full information I-Frame. If you want to know more, you can read about it here https://en.wikipedia.org/wiki/Inter_frame
+- bitrate - Specify how much information do you want to keep in a resulting video track. Higher the number, higher the quality, but also, larger the file. You can tinker with this value to find optimal settings.
+- size - Represents frame size or video resolution. You should keep width and height divisible by 16 for best quality as it's a recommended value for h264 encoding, but keep the original aspect ration as best as possible.
+- audio_bitrate - Specify how much information do you want to keep in a resulting audio track. Again, higher number, higher quality, but higher filesize.
+- profile - More information here https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC#Profiles and here https://trac.ffmpeg.org/wiki/Encode/H.264#Alldevices
+- preset - From here https://trac.ffmpeg.org/wiki/Encode/H.264#a2.Chooseapreset: A preset is a collection of options that will provide a certain encoding speed to compression ratio. A slower preset will provide better compression (compression is quality per filesize).
+- fps - Specify which framerate to target or, in other words, how many frames per second do you wish to have in a resulting video. Generally this should not be higher than a source framerate.
+- gop - GOP stands for Group of Pictures. It represents the distance between I-frames, or how many P-Frames and B-Frames can sit between full information I-Frame. If you want to know more, you can read about it here https://en.wikipedia.org/wiki/Inter_frame
