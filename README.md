@@ -62,6 +62,7 @@ qualities:
         profile: 'baseline'
         fps: 25
         gop: 12
+        preset: 'medium'
     540p:
         bitrate: '800k'
         size: '960x540'
@@ -69,6 +70,7 @@ qualities:
         profile: 'main'
         fps: 25
         gop: 12
+        preset: 'medium'
     720p:
         bitrate: '1000k'
         size: '1280x720'
@@ -76,6 +78,7 @@ qualities:
         profile: 'high'
         fps: 25
         gop: 12
+        preset: 'medium'
 ```
 
 Filename of this definition must match the filename of the video file you want to transcode using following rule: 
